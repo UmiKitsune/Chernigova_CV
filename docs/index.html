@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--скачиваем  reset css с github, raw, скачать как css и подключаем. Он сбрасывет все не нужные настройки браузера - отступы и пр.-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Резюме</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header animated fadeInRight">
+
+                <nav class="menu-list">
+                    <a href="#about" class="menu-link">О себе</a>
+                    <a href="#study" class="menu-link">Обучение</a>
+                    <a href="#test" class="menu-link">Тесты</a>
+                    <a href="#skills" class="menu-link">Навыки</a>
+                    <a href="#hobby" class="menu-link">Хобби</a>
+                    <a href="#portfolio" class="menu-link">Портфолио</a>
+                </nav>
+
+                <div class="name underBurger">
+                    <h1>Екатерина Чернигова</h1>
+                    <h3>Frontend-developer</h3>
+                </div>
+                <div class="contacts">
+                    <div class="mail_and_number underBurger">
+                        <p>Tel.:&nbsp;<a href="tel:+79992361702">+7-999-236-17-02</a></p>
+                        <p>Mail:&nbsp; <a href="mailto:rinachernigova@gmail.com">RinaChernigova@gmail.com</a></p>
+                    </div>
+
+
+                    <div>
+                        <a href="tel:+79992361702" class="min_footer"><img src="img/icons/phone.png"></a>
+                        <a href="mailto:rinachernigova@gmail.com" class="min_footer"><img src="img/icons/mail.png"></a>
+                        <a href="https://github.com/UmiKitsune" target="_blank"><img
+                                src="img/icons/icons8-github-32.png" alt="github"></a>
+                        <a href="https://join.skype.com/invite/guOOhZgyXFsR" target="_blank"><img
+                                src="img/icons/icons8-скайп-32.png" alt="skype"></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--/.header-->
+
+            <!--mini-header----->
+            <div class="mini-header animated fadeInRight">
+
+                <div class="mini-name">
+                    <h1>Frontend-developer</h1>
+                    <h3>Екатерина Чернигова</h3>
+                </div>
+
+            </div>
+            <!--.mini-header-->
+
+            <!--Гамбургер--------->
+            <div class="menu-btn"></div>
+
+        </div>
+        <!--/.container-->
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <div class="content animated fadeInRight">
+
+                    <!--О себе-->
+
+                    <a name="about"></a>
+                    <h1>О себе</h1>
+                    <div class="blocks">
+                        <div class="aboutMeItem">
+                            <img src="img/2.jpg" class="mainPhoto"></div>
+                        <div class="aboutMeItem">
+                            <p>Здраствуйте! <br> Рада преветсвовать Вас на моей страничке. <br> Меня зовут
+                                <span>Чернигова
+                                    Екатерина</span> и я начинающий Frontend-разработчик</p>
+                        </div>
+                    </div>
+
+                    <!--Обучение-->
+                    <a name="study"></a>
+                    <h1>Обучение</h1>
+                    <div class="blocks">
+                        <ul class="courses">
+                            <li><img src="img/icons/circle.png"><span>Сентябрь 2018 - Январь 2019:</span> Курсы по
+                                фронтенд разработке в <span>CyberBionic
+                                    Systematics.</span>
+                                <a href="https://edu.cbsystematics.com/ru/specialities/frontend-developer"
+                                    title="Перейти на страницу курса">
+                                    <img src="img/icons/right.png" class="pulsing" />
+                                </a>
+                            </li>
+                            <li><img src="img/icons/circle.png"><span>Январь 2019 - по настоящее время:</span>Обучающие
+                                онлай-курсы, интенсивы, учебники и т.д.</li>
+                        </ul>
+                        <p></p>
+                    </div>
+
+                    <!--Тесты-->
+                    <a name="test"></a>
+                    <h1>Тесты</h1>
+                    <div class="blocks">
+
+                        <div class="series">
+                            <!-- Slider main container -->
+                            <div class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/web2.jpg"
+                                            data-caption="Web Frontend Developer">
+                                            <div class="card test-1"></div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/htmlStarter2.jpg"
+                                            data-caption="HTML&CSS Starter">
+                                            <div class="card test-2"></div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/htmlAdv2.jpg"
+                                            data-caption="HTML&CSS Advanced">
+                                            <div class="card test-3"></div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/jsEss2.jpg"
+                                            data-caption="JavaScript Essential">
+                                            <div class="card test-4"></div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/jsAdv2.jpg"
+                                            data-caption="JavaScript Advanced">
+                                            <div class="card test-5"></div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/ts2.jpg"
+                                            data-caption="TypeScript Fundamentals">
+                                            <div class="card test-6"></div>
+                                        </a>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <a data-fancybox="gallery" href="img/tests/Angular2.jpg"
+                                            data-caption="Angular Essential">
+                                            <div class="card test-7"></div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--/.swiper-container-->
+                            <button class="arrow_right"><img src="img/icons/r-for-tests.png" alt="right"></button>
+                            <button class="arrow_left"><img src="img/icons/l-for-tests.png" alt="left"></button>
+                        </div>
+                        <!--/.series-->
+                    </div>
+
+
+                    <!--Навыки-->
+                    <a name="skills"></a>
+                    <h1>Навыки</h1>
+                    <div class="blocks">
+                        <img src="img/icons/html.png" title="HTML5">
+                        <img src="img/icons/css.png" title="CSS3">
+                        <img src="img/icons/js.png" title="JavaScript">
+                        <img src="img/icons/bootstrap.png" title="Bootstrap 4">
+                        <img src="img/icons/jquery.png" title="JQuery">
+                        <img src="img/icons/Angular2.png" title="Angular 2+">
+                        <img src="img/icons/plus1.png" title="Еще навыки" id="open" class="pulsing">
+                        <img src="img/icons/x1.png" id="close" style="display:none;">
+                        <ul class="list">
+                            <li><img src="img/icons/circle.png">TypeScript</li>
+                            <li><img src="img/icons/circle.png">Canvas</li>
+                            <li><img src="img/icons/circle.png">Sass</li>
+                            <li><img src="img/icons/circle.png">Gulp</li>
+                            <li><img src="img/icons/circle.png">Адаптивная верстка</li>
+                            <li><img src="img/icons/circle.png">Кроссбраузерная верстка</li>
+                            <li><img src="img/icons/circle.png">Git</li>
+                        </ul>
+                    </div>
+
+
+                    <!--Хобби-->
+                    <a name="hobby"></a>
+                    <h1>Хобби</h1>
+                    <div class="blocks">
+                        <figure>
+                            <img src="img/icons/read.png" title="Чтение книг">
+                            <figcaption>Чтение книг</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/icons/films.png" title="Просмотр фильмов/сериалов">
+                            <figcaption>Фильмы/сериалы</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/icons/japan.png" title="Увлечение культурой Японии и японским языком">
+                            <figcaption>Япония и японский язык</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/icons/dance.png" title="Танцы для души">
+                            <figcaption>Танцы для души</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/icons/cross.png" title="Вышивка крестиком, оригами, шитье и тп">
+                            <figcaption>DIY</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/icons/sweets.png" title="Выпечка сладостей">
+                            <figcaption>Выпечка сладостей</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/icons/food.png" title="Искать вкусные новые блюда">
+                            <figcaption>Пробовать новые блюда :)</figcaption>
+                        </figure>
+
+                    </div>
+
+
+                    <!--Портфолио-->
+                    <a name="portfolio"></a>
+                    <h1>Портфолио</h1>
+                    <div class="blocks">
+                        <p style="color: rgb(146, 139, 139);">В скором времени здесь появятся другие мои работы. </p>
+                    </div>
+
+
+                </div>
+                <!--/.content-->
+            </div>
+            <!--/.main-content-->
+        </div>
+        <!--/.container-->
+    </main>
+
+
+
+    <footer class="footer animated fadeInRight">
+        <div class="container">
+            <div class="footer-content ">
+                <div class="left">
+                    <span class="copyright">© 2019, Чернигова Екатерина</span>
+                </div>
+                <!--/.left-->
+                <div class="right">
+                    <div class="footer-link">
+                        <span>Tel.:&nbsp;<a href="tel:+79992361702">+7-999-236-17-02</a></span>
+                        <span>Mail:&nbsp; <a href="mailto:rinachernigova@gmail.com">RinaChernigova@gmail.com</a></span>
+                    </div>
+                </div>
+                <!--/.right-->
+                <div class="icons8">
+                    <a href="tel:+79992361702" class="min_footer"><img src="img/icons/phone.png"></a>
+                    <a href="mailto:rinachernigova@gmail.com" class="min_footer"><img src="img/icons/mail.png"></a>
+                    <a href="https://github.com/UmiKitsune" target="_blank"><img src="img/icons/icons8-github-32.png"
+                            alt="github"></a>
+                    <a href="https://join.skype.com/invite/guOOhZgyXFsR" target="_blank"><img
+                            src="img/icons/icons8-скайп-32.png" alt="skype"></a>
+                    <p>Иконки от <a target="_blank" href="https://icons8.ru">Icons8</a></p>
+                </div>
+            </div>
+            <!--/.footer-content-->
+        </div>
+        <!--/.container-->
+    </footer>
+
+
+    <!------------кнопка наверх---------------------------->
+
+    <a href="#" class="btn_Up"></a>
+
+
+
+
+    <script src="js/swiper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
