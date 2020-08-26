@@ -10,6 +10,6 @@
   <li>flex-разметка</li>
   <li>адаптивная верстка</li>
   <li>анимация - animate.css</li>
-  <li>sancyBox</li>
+  <li>fancyBox</li>
   <li>слайдеры - swiper.js </li>
 </ul>
